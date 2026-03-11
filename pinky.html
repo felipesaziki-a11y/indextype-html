@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Contatos</title>
+</head>
+<body>
+    <a href="middle.html">Computadores</a>
+	<a href="thumb.html">Computador</a>
+	<a href="ring.html">Monitores</a>
+	<a href="pinky.html">Contatos</a>
+    <h1> </h1>
+    <form>
+        <div>
+            <label for="nome">Nome</label>
+            <input id="nome">
+        </div>
+        
+        <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input id="sobrenome">
+        </div>
+
+        <div>
+            <label for="idade">Idade</label>
+            <input id="idade" type="number">
+        </div>
+        <div>
+            <label for="genero">Gênero</label>
+            <div>
+                <label for="genero">Masculino</label>
+                <input type="radio" name="genero" value="homem">
+                <label for="genero">Feminino</label>
+                <input type="radio" name="genero" value="mulher">
+                <label for="genero">Outro</label>
+                <input type="radio" name="genero" value="outro">
+            </div>
+        </div>
+        <div>
+            <label for="familia">Membros em sua casa</label>
+            <div>
+                <label for="familia">Pai</label>
+                <input type="checkbox" name="parente" value="pai">
+                <label for="familia">Mãe</label>
+                <input type="checkbox" name="parente" value="mae">
+                <label for="familia">Filhos</label>
+                <input type="checkbox" name="parente" value="filho">
+                <label for="familia">Cônjuge</label>
+                <input type="checkbox" name="parente" value="conjuge">
+                <label for="familia">Tio(s)</label>
+                <input type="checkbox" name="parente" value="conjuge">
+                <label for="familia">Avó(s)</label>
+                <input type="checkbox" name="parente" value="conjuge">
+            </div>
+        </div>
+        <div>
+            <label for="tipo-moradia">Tipo de Moradia</label>
+            <select id="tipo-moradia" name="moradia">
+            <option value="sem-casa">Sem moradia</option>
+            <option value="apartamento">Apartamento</option>
+            <option value="casa-germinada">Casa germinada</option>
+            <option value="casa-sobrado">Casa sobrado</option>
+        </div>
+        <div>
+            <label for="descrição">Descrição</label>
+            <div>
+                <textarea rows="15" cols="60"></textarea>
+            </div>
+        </div>
+        <div>
+        <button>Salvar</button>
+        </div>
+    </form>
+</body>
