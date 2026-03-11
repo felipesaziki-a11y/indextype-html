@@ -2,13 +2,13 @@
 <html lang="ptbr">
 <head>
     <meta charset="UTF-8">
-    <title>Contatos</title>
+    <title>Pinky</title>
 </head>
 <body>
     <a href="middle.html">Computadores</a>
 	<a href="thumb.html">Computador</a>
 	<a href="ring.html">Monitores</a>
-	<a href="pinky.html">Contatos</a>
+	<a href="index.html">Index</a>
     <h1> </h1>
     <form>
         <div>
@@ -37,14 +37,6 @@
             </div>
         </div>
         <div>
-            <label for="tipo-moradia">Tipo de Moradia</label>
-        </div>
-        <select id="tipo-moradia" name="moradia">
-        <option value="sem-casa">Sem moradia</option>
-        <option value="apartamento">Apartamento</option>
-        <option value="casa-germinada">Casa germinada</option>
-        <option value="casa-sobrado">Casa sobrado</option>
-        <div>
             <label for="familia">Membros em sua casa</label>
         </div>
         <label for="familia">Pai</label>
@@ -66,10 +58,21 @@
             </div>
         </div>
     </form>
-    <form action="login.php" method="post">
+    <form action="contact.php" method="get">
         <div>
-            <label for="campo-login">Contato</label>
+            <label for="campo-login">Salvar contato</label>
+        </div>
+        <div>
+            <label for="campo-login">Nome</label>
             <input id="campo-login" type="text" name="login">
+        </div>
+        <div>
+            <label for="campo-data">Data de nascimento</label>
+            <input id="campo-data" type="date" name="data_nascimento">
+        </div>
+        <div>
+            <label for="campo-email">Email</label>
+            <input id="campo-email" type="email" name="email">
         </div>
         <div>
             <label for="campo-senha">Senha</label>
