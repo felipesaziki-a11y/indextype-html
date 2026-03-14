@@ -23,5 +23,52 @@
         <h2>3. Designer de UI</h2>
 
         <h2>4. Analista de Sistema</h2>
+        <form action="contato.php" method="get">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="idade">Idade</label>
+                <input type="number" id="idade">
+            </div>
+            <div>
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade">
+            </div>
+            <div>
+                <label for="selecao">Selecione uma das opções</label>
+                <div>
+                <input type="checkbox" id="program">
+                <label for="program">Programação</label>
+                <input type="checkbox" id="ia">
+                <label for="ia">Inteligência Artificial</label>
+                <input type="checkbox" id="design">
+                <label for="design">Design</label>
+                <input type="checkbox" id="seguranca">
+                <label for="seguranca">Segurança da Informação</label>
+                </div>
+            </div>
+            <div>
+                <label for="interesse">Nível de Interesse</label>
+                <div>
+                <input type="radio" id="low">
+                <label for="low">Baixo</label>
+                <input type="radio" id="mid">
+                <label for="mid">Médio</label>
+                <input type="radio" id="high">
+                <label for="high">Alto</label>
+                </div>
+            </div>
+            <label for="Mensagem">Mensagem</label>
+            <div>    
+                <textarea rows="10" cols="60"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
     </body>
 </html>
